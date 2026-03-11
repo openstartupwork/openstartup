@@ -1,0 +1,6 @@
+[workspace]
+members = ["programs/openstartup"]
+
+[dependencies]
+anchor-lang = "0.30.0"
+anchor-spl = "0.30.0"

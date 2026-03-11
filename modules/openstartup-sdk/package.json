@@ -1,0 +1,16 @@
+{
+  "name": "@openstartup/sdk",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "scripts": {
+    "build": "tsc --project ../tsconfig.json",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "@solana/web3.js": "^1.73.0"
+  }
+}

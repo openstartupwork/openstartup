@@ -1,0 +1,14 @@
+{
+  "name": "openstartup",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "sdk",
+    "agents/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  }
+}

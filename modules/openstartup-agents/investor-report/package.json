@@ -1,0 +1,14 @@
+{
+  "name": "@openstartup/investor-report",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "scripts": {
+    "build": "tsc --project ../../tsconfig.json",
+    "test": "echo \"No tests set up yet\""
+  },
+  "dependencies": {
+    "@openstartup/sdk": "*"
+  }
+}

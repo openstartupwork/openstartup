@@ -1,0 +1,14 @@
+[programs.localnet]
+openstartup = "./target/deploy/openstartup.so"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+
+[workspace]
+members = ["programs/openstartup"]
